@@ -1,26 +1,61 @@
-# API Testing Project
+# API Testing & Automation Project 🚀
 
-This project demonstrates basic API testing using Python3 and the Requests library.
+## 📌 Project Overview
+This project demonstrates API testing and automation using Postman Web and Python.  
+It includes testing of REST APIs and automated validation of responses.
 
-## Features
-- Sends GET request to a public API
-- Validates response status code
-- Checks if data is returned
-- Extracts and prints specific data from the response
+---
 
-## Technologies Used
-- Python3
-- Requests library
+## 🛠 Tools & Technologies
+- Postman Web
+- Python
+- requests library
+- pytest
 
-## API Used
-https://jsonplaceholder.typicode.com/posts
+---
 
-## How to Run
-1. Install requests library
-pip install requests
+## 🔍 Features
+- Tested REST APIs (GET, POST, PUT, DELETE)
+- Validated API responses manually using Postman
+- Automated API testing using Python
+- Verified:
+  - Status codes
+  - JSON response structure
+  - Data correctness
 
-2. Run the script
-python3 api_test.py
+---
 
-## Author
+## 📡 API Used
+https://jsonplaceholder.typicode.com/
+
+---
+
+## 📁 Project Structure
+api-testing-project/
+├── api_test.py
+├── postman_collection.json
+
+## ▶️ How to Run the Project
+
+### 1. Install dependencies
+pip install requests pytest
+
+### 2. Run tests
+python3 -m pytest api_test.py
+
+## 📊 Test Cases Covered
+- GET request validation
+- POST request validation
+- PUT request validation
+- DELETE request validation
+---
+## 💼 Key Learnings
+- Understanding of REST API testing
+- Hands-on experience with Postman Web
+- API automation using Python
+- Writing test cases using pytest
+
+---
+
+## 🔗 Author
 Shriya Pandey
